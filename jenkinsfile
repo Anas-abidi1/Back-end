@@ -1,1 +1,5 @@
-
+node {
+    stage('Checkout') {
+        git "https://github.com/Anas-abidi1/Back-end.git"
+    }
+}
